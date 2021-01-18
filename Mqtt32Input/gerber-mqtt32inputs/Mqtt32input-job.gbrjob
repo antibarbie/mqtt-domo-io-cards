@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.8-db9833491~88~ubuntu18.04.1"
     },
-    "CreationDate":  "2020-12-31T00:06:07+01:00"
+    "CreationDate":  "2021-01-18T16:59:19+01:00"
   },
   "GeneralSpecs":
   {
@@ -50,16 +50,6 @@
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Mqtt32input-F_Paste.gbr",
-      "FileFunction":  "SolderPaste,Top",
-      "FilePolarity":  "Positive"
-    },
-    {
-      "Path":  "Mqtt32input-B_Paste.gbr",
-      "FileFunction":  "SolderPaste,Bot",
-      "FilePolarity":  "Positive"
-    },
-    {
       "Path":  "Mqtt32input-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
@@ -92,10 +82,6 @@
       "Notes":  "Layer F.SilkS"
     },
     {
-      "Type":  "SolderPaste",
-      "Notes":  "Layer F.Paste"
-    },
-    {
       "Type":  "SolderMask",
       "Notes":  "Layer F.Mask"
     },
@@ -115,10 +101,6 @@
     {
       "Type":  "SolderMask",
       "Notes":  "Layer B.Mask"
-    },
-    {
-      "Type":  "SolderPaste",
-      "Notes":  "Layer B.Paste"
     },
     {
       "Type":  "Legend",
