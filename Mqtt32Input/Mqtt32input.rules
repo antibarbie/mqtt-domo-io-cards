@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 2257)
+    (start_pass_no 5612)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -68,13 +68,12 @@
     "Net-(J1-PadA5)" "Net-(J1-PadA6)" "Net-(J1-PadA7)" "Net-(J1-PadA8)" "Net-(J4-PadA8)" "Net-(J4-PadA7)" "Net-(J4-PadA6)" "Net-(J4-PadA5)"
     "Net-(J4-PadA4)" "Net-(J4-PadA3)" "Net-(J4-PadA2)" "Net-(J4-PadA1)" "Net-(D1-Pad2)" /PL /CE /CP
     "Net-(J5-PadA8)" "Net-(J5-PadA7)" "Net-(J5-PadA6)" "Net-(J5-PadA5)" "Net-(J5-PadA4)" "Net-(J5-PadA3)" "Net-(J5-PadA2)" "Net-(J5-PadA1)"
-    "Net-(J6-Pad4)" "Net-(J8-Pad1)" "Net-(J9-PadA8)" "Net-(J9-PadA7)" "Net-(J9-PadA6)" "Net-(J9-PadA5)" "Net-(J9-PadA4)" "Net-(J9-PadA3)"
-    "Net-(J9-PadA2)" "Net-(J9-PadA1)" "Net-(J10-Pad4)" "Net-(R9-Pad2)" "Net-(R10-Pad2)" "Net-(R11-Pad2)" "Net-(RN1-Pad9)" "Net-(RN1-Pad8)"
-    "Net-(RN1-Pad7)" "Net-(RN1-Pad6)" "Net-(RN1-Pad5)" "Net-(RN1-Pad4)" "Net-(RN1-Pad3)" "Net-(RN1-Pad2)" "Net-(RN4-Pad9)" "Net-(RN4-Pad8)"
-    "Net-(RN4-Pad7)" "Net-(RN4-Pad6)" "Net-(RN4-Pad5)" "Net-(RN4-Pad4)" "Net-(RN4-Pad3)" "Net-(RN4-Pad2)" "Net-(RN7-Pad9)" "Net-(RN7-Pad8)"
-    "Net-(RN7-Pad7)" "Net-(RN7-Pad6)" "Net-(RN7-Pad5)" "Net-(RN7-Pad4)" "Net-(RN7-Pad3)" "Net-(RN7-Pad2)" "Net-(RN10-Pad9)" "Net-(RN10-Pad8)"
-    "Net-(RN10-Pad7)" "Net-(RN10-Pad6)" "Net-(RN10-Pad5)" "Net-(RN10-Pad4)" "Net-(RN10-Pad3)" "Net-(RN10-Pad2)" "Net-(U1-Pad10)" "Net-(U2-Pad10)"
-    "Net-(U3-Pad10)"
+    "Net-(J6-Pad4)" "Net-(J9-PadA8)" "Net-(J9-PadA7)" "Net-(J9-PadA6)" "Net-(J9-PadA5)" "Net-(J9-PadA4)" "Net-(J9-PadA3)" "Net-(J9-PadA2)"
+    "Net-(J9-PadA1)" "Net-(J10-Pad4)" "Net-(R9-Pad2)" "Net-(R10-Pad2)" "Net-(RN1-Pad9)" "Net-(RN1-Pad8)" "Net-(RN1-Pad7)" "Net-(RN1-Pad6)"
+    "Net-(RN1-Pad5)" "Net-(RN1-Pad4)" "Net-(RN1-Pad3)" "Net-(RN1-Pad2)" "Net-(RN4-Pad9)" "Net-(RN4-Pad8)" "Net-(RN4-Pad7)" "Net-(RN4-Pad6)"
+    "Net-(RN4-Pad5)" "Net-(RN4-Pad4)" "Net-(RN4-Pad3)" "Net-(RN4-Pad2)" "Net-(RN7-Pad9)" "Net-(RN7-Pad8)" "Net-(RN7-Pad7)" "Net-(RN7-Pad6)"
+    "Net-(RN7-Pad5)" "Net-(RN7-Pad4)" "Net-(RN7-Pad3)" "Net-(RN7-Pad2)" "Net-(RN10-Pad9)" "Net-(RN10-Pad8)" "Net-(RN10-Pad7)" "Net-(RN10-Pad6)"
+    "Net-(RN10-Pad5)" "Net-(RN10-Pad4)" "Net-(RN10-Pad3)" "Net-(RN10-Pad2)" "Net-(U1-Pad10)" "Net-(U2-Pad10)" "Net-(U3-Pad10)" "Net-(J7-Pad1)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule

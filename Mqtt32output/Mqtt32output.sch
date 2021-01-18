@@ -132,8 +132,6 @@ Wire Wire Line
 Wire Wire Line
 	1300 3900 1300 3250
 Wire Wire Line
-	1300 3250 2550 3250
-Wire Wire Line
 	3050 3250 3050 2650
 Connection ~ 1300 3900
 Connection ~ 3050 2650
@@ -281,8 +279,6 @@ Wire Wire Line
 	4450 1700 4650 1700
 Wire Wire Line
 	4650 1700 4650 2600
-Wire Wire Line
-	4650 3250 4150 3250
 Connection ~ 3050 3250
 Wire Wire Line
 	4650 3250 4650 2600
@@ -293,8 +289,6 @@ Wire Wire Line
 	6350 1650 6350 2600
 Wire Wire Line
 	6350 2600 6350 3250
-Wire Wire Line
-	6350 3250 5850 3250
 Connection ~ 6350 2600
 Connection ~ 4650 3250
 Wire Wire Line
@@ -303,8 +297,6 @@ Wire Wire Line
 	7950 1650 7950 2600
 Wire Wire Line
 	7950 2600 7950 3250
-Wire Wire Line
-	7950 3250 7450 3250
 Connection ~ 7950 2600
 Connection ~ 6350 3250
 Wire Wire Line
@@ -393,26 +385,6 @@ Wire Wire Line
 Connection ~ 2250 3150
 Wire Wire Line
 	2250 3150 3350 3150
-Wire Wire Line
-	2550 3250 2550 3050
-Connection ~ 2550 3250
-Wire Wire Line
-	2550 3250 3050 3250
-Wire Wire Line
-	4150 3250 4150 3000
-Connection ~ 4150 3250
-Wire Wire Line
-	4150 3250 3050 3250
-Wire Wire Line
-	5850 3250 5850 3000
-Connection ~ 5850 3250
-Wire Wire Line
-	5850 3250 4650 3250
-Wire Wire Line
-	7450 3250 7450 3000
-Connection ~ 7450 3250
-Wire Wire Line
-	7450 3250 6350 3250
 Wire Wire Line
 	3400 650  3400 1300
 Wire Wire Line
@@ -917,4 +889,57 @@ Wire Wire Line
 Wire Wire Line
 	3850 5850 3850 5400
 Connection ~ 3850 5400
+Wire Wire Line
+	6350 3250 7950 3250
+Wire Wire Line
+	4650 3250 6350 3250
+Wire Wire Line
+	3050 3250 4650 3250
+Wire Wire Line
+	1300 3250 3050 3250
+Wire Wire Line
+	2550 3050 2550 3100
+Wire Wire Line
+	2550 3100 3100 3100
+Wire Wire Line
+	4150 3100 4150 3000
+Wire Wire Line
+	4150 3100 5850 3100
+Wire Wire Line
+	5850 3100 5850 3000
+Connection ~ 4150 3100
+Wire Wire Line
+	5850 3100 7450 3100
+Wire Wire Line
+	7450 3100 7450 3000
+Connection ~ 5850 3100
+Wire Wire Line
+	3150 4300 3150 4250
+Wire Wire Line
+	3150 4250 3100 4250
+Wire Wire Line
+	3100 4250 3100 3100
+Connection ~ 3100 3100
+Wire Wire Line
+	3100 3100 4150 3100
+$Comp
+L Device:R R8
+U 1 1 5FDDFDC2
+P 1650 3450
+F 0 "R8" H 1600 3650 50  0000 L CNN
+F 1 "10k" H 1550 3300 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1580 3450 50  0001 C CNN
+F 3 "~" H 1650 3450 50  0001 C CNN
+	1    1650 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 3900 1650 3900
+Wire Wire Line
+	1650 3900 1650 3600
+Wire Wire Line
+	1650 3300 1650 3100
+Wire Wire Line
+	1650 3100 2550 3100
+Connection ~ 2550 3100
 $EndSCHEMATC
