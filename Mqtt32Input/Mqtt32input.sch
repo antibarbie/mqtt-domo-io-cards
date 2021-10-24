@@ -71,12 +71,12 @@ $EndComp
 $Comp
 L power:+5V #PWR02
 U 1 1 5FAE756F
-P 1400 5000
-F 0 "#PWR02" H 1400 4850 50  0001 C CNN
-F 1 "+5V" H 1415 5173 50  0000 C CNN
-F 2 "" H 1400 5000 50  0001 C CNN
-F 3 "" H 1400 5000 50  0001 C CNN
-	1    1400 5000
+P 1450 4750
+F 0 "#PWR02" H 1450 4600 50  0001 C CNN
+F 1 "+5V" H 1465 4923 50  0000 C CNN
+F 2 "" H 1450 4750 50  0001 C CNN
+F 3 "" H 1450 4750 50  0001 C CNN
+	1    1450 4750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -84,11 +84,6 @@ Wire Wire Line
 Wire Wire Line
 	1250 4650 1300 4650
 Connection ~ 1300 4650
-Wire Wire Line
-	1400 5350 1850 5350
-Connection ~ 1400 5000
-Wire Wire Line
-	1400 5000 1400 5350
 Wire Wire Line
 	1300 6150 3850 6150
 Wire Wire Line
@@ -132,12 +127,7 @@ Wire Wire Line
 	3050 4700 3150 4700
 Connection ~ 3050 4850
 Wire Wire Line
-	1400 5350 1400 6250
-Wire Wire Line
-	1400 6250 4850 6250
-Wire Wire Line
 	4850 6250 4850 5250
-Connection ~ 1400 5350
 Wire Wire Line
 	4850 5250 4950 5250
 Wire Wire Line
@@ -162,36 +152,14 @@ F 10 "Y" H 1300 4450 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    1300 4450
 	0    -1   -1   0   
 $EndComp
-$Comp
-L 233-508:233-508 J1
-U 1 1 5FF70C98
-P 2150 500
-F 0 "J1" V 1956 844 50  0000 L CNB
-F 1 "INPUT 0-7" V 2047 844 50  0000 L CNB
-F 2 "_Extra_footprints:233-508" H 2150 500 50  0001 L BNN
-F 3 "" H 2150 500 50  0001 L BNN
-F 4 "Wago Corporation" H 2150 500 50  0001 L BNN "MF"
-F 5 "0233-0508" H 2150 500 50  0001 L BNN "MPN"
-F 6 "79K2053" H 2150 500 50  0001 L BNN "OC_NEWARK"
-F 7 "1777101" H 2150 500 50  0001 L BNN "OC_FARNELL"
-	1    2150 500 
-	0    -1   -1   0   
-$EndComp
-Text Notes 4200 6000 0    50   ~ 10
-32 INPUTS V2.0 \n+24V  MQTT\ngithub.com/\nantibarbie/io-\nhardware
-Text Notes 1950 450  0    39   ~ 0
+Text Notes 1800 550  0    39   ~ 0
 00 01 02 03 04 05 06 07
-Text Notes 4450 450  0    39   ~ 0
+Text Notes 4450 550  0    39   ~ 0
 08 09 10 11 12 13 14 15
-Text Notes 6900 450  0    39   ~ 0
+Text Notes 6900 550  0    39   ~ 0
 23 22 21 20 19 18 17 16 
-Text Notes 9450 450  0    39   ~ 0
+Text Notes 9450 550  0    39   ~ 0
 31 30 29 28 27 26 25 24
-Wire Wire Line
-	1400 4650 1400 4750
-Connection ~ 1400 4750
-Wire Wire Line
-	1400 4750 1400 5000
 Wire Wire Line
 	1300 4650 1300 4750
 Connection ~ 1300 4750
@@ -225,30 +193,6 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1550 1600 50  0001 C CNN
 	1    1550 1600
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1850 700  1850 800 
-Connection ~ 1850 800 
-Connection ~ 1950 800 
-Wire Wire Line
-	1950 800  1950 700 
-Connection ~ 2050 800 
-Wire Wire Line
-	2050 800  2050 700 
-Connection ~ 2150 800 
-Wire Wire Line
-	2150 800  2150 700 
-Connection ~ 2250 800 
-Wire Wire Line
-	2250 800  2250 700 
-Connection ~ 2350 800 
-Wire Wire Line
-	2350 800  2350 700 
-Connection ~ 2450 800 
-Wire Wire Line
-	2450 800  2450 700 
-Connection ~ 2550 800 
-Wire Wire Line
-	2550 800  2550 700 
 Wire Wire Line
 	1750 1300 1850 1300
 Wire Wire Line
@@ -324,17 +268,17 @@ Wire Wire Line
 $Comp
 L 233-508:233-508 J4
 U 1 1 5FE04CBC
-P 4800 500
-F 0 "J4" V 4606 844 50  0000 L CNB
-F 1 "INPUT 8-15" V 4697 844 50  0000 L CNB
-F 2 "_Extra_footprints:233-508" H 4800 500 50  0001 L BNN
-F 3 "" H 4800 500 50  0001 L BNN
-F 4 "Wago Corporation" H 4800 500 50  0001 L BNN "MF"
-F 5 "0233-0508" H 4800 500 50  0001 L BNN "MPN"
-F 6 "79K2053" H 4800 500 50  0001 L BNN "OC_NEWARK"
-F 7 "1777101" H 4800 500 50  0001 L BNN "OC_FARNELL"
-	1    4800 500 
-	0    -1   -1   0   
+P 4900 1000
+F 0 "J4" V 4706 1344 50  0000 L CNB
+F 1 "INPUT 8-15" V 4797 1344 50  0000 L CNB
+F 2 "_Extra_footprints:233-508" H 4900 1000 50  0001 L BNN
+F 3 "" H 4900 1000 50  0001 L BNN
+F 4 "Wago Corporation" H 4900 1000 50  0001 L BNN "MF"
+F 5 "0233-0508" H 4900 1000 50  0001 L BNN "MPN"
+F 6 "79K2053" H 4900 1000 50  0001 L BNN "OC_NEWARK"
+F 7 "1777101" H 4900 1000 50  0001 L BNN "OC_FARNELL"
+	1    4900 1000
+	0    1    1    0   
 $EndComp
 $Comp
 L 74xx:74HC165 U2
@@ -433,17 +377,17 @@ Wire Wire Line
 $Comp
 L 233-508:233-508 J5
 U 1 1 5FE104B8
-P 7250 500
-F 0 "J5" V 7056 844 50  0000 L CNB
-F 1 "INPUT 16-23" V 7147 844 50  0000 L CNB
-F 2 "_Extra_footprints:233-508" H 7250 500 50  0001 L BNN
-F 3 "" H 7250 500 50  0001 L BNN
-F 4 "Wago Corporation" H 7250 500 50  0001 L BNN "MF"
-F 5 "0233-0508" H 7250 500 50  0001 L BNN "MPN"
-F 6 "79K2053" H 7250 500 50  0001 L BNN "OC_NEWARK"
-F 7 "1777101" H 7250 500 50  0001 L BNN "OC_FARNELL"
-	1    7250 500 
-	0    -1   -1   0   
+P 7350 1000
+F 0 "J5" V 7156 1344 50  0000 L CNB
+F 1 "INPUT 16-23" V 7247 1344 50  0000 L CNB
+F 2 "_Extra_footprints:233-508" H 7350 1000 50  0001 L BNN
+F 3 "" H 7350 1000 50  0001 L BNN
+F 4 "Wago Corporation" H 7350 1000 50  0001 L BNN "MF"
+F 5 "0233-0508" H 7350 1000 50  0001 L BNN "MPN"
+F 6 "79K2053" H 7350 1000 50  0001 L BNN "OC_NEWARK"
+F 7 "1777101" H 7350 1000 50  0001 L BNN "OC_FARNELL"
+	1    7350 1000
+	0    1    1    0   
 $EndComp
 $Comp
 L 74xx:74HC165 U3
@@ -566,17 +510,17 @@ Wire Wire Line
 $Comp
 L 233-508:233-508 J9
 U 1 1 5FE1EE35
-P 9800 500
-F 0 "J9" V 9606 844 50  0000 L CNB
-F 1 "INPUT 24-31" V 9697 844 50  0000 L CNB
-F 2 "_Extra_footprints:233-508" H 9800 500 50  0001 L BNN
-F 3 "" H 9800 500 50  0001 L BNN
-F 4 "Wago Corporation" H 9800 500 50  0001 L BNN "MF"
-F 5 "0233-0508" H 9800 500 50  0001 L BNN "MPN"
-F 6 "79K2053" H 9800 500 50  0001 L BNN "OC_NEWARK"
-F 7 "1777101" H 9800 500 50  0001 L BNN "OC_FARNELL"
-	1    9800 500 
-	0    -1   -1   0   
+P 9900 1000
+F 0 "J9" V 9706 1344 50  0000 L CNB
+F 1 "INPUT 24-31" V 9797 1344 50  0000 L CNB
+F 2 "_Extra_footprints:233-508" H 9900 1000 50  0001 L BNN
+F 3 "" H 9900 1000 50  0001 L BNN
+F 4 "Wago Corporation" H 9900 1000 50  0001 L BNN "MF"
+F 5 "0233-0508" H 9900 1000 50  0001 L BNN "MPN"
+F 6 "79K2053" H 9900 1000 50  0001 L BNN "OC_NEWARK"
+F 7 "1777101" H 9900 1000 50  0001 L BNN "OC_FARNELL"
+	1    9900 1000
+	0    1    1    0   
 $EndComp
 $Comp
 L 74xx:74HC165 U4
@@ -736,7 +680,6 @@ Wire Wire Line
 	8750 3350 8750 2300
 Wire Wire Line
 	8750 2300 7900 2300
-Connection ~ 1400 4650
 Wire Wire Line
 	3100 3550 5750 3550
 Wire Wire Line
@@ -782,9 +725,7 @@ Wire Wire Line
 	1100 2300 1500 2300
 Connection ~ 3750 3400
 Wire Wire Line
-	1400 3550 3100 3550
-Wire Wire Line
-	1400 3550 1400 4650
+	1400 3550 1600 3550
 Connection ~ 3100 3550
 Wire Wire Line
 	1300 4250 3850 4250
@@ -1038,10 +979,6 @@ Wire Wire Line
 Wire Wire Line
 	5800 5450 5800 4650
 Connection ~ 4500 5450
-Text Notes 9000 5900 0    31   ~ 0
-+-------- Valid Jumpers---------\n| [oo] [oo]  SLAVE 1&2\n|  oo   oo   SET DIP CHAIN LENGTH = 0\n+--------------------------\n| oo   oo  CHAINED MODE\n|[oo] [oo] SET DIP CHAIN LENGTH > 0\n+--------------------------
-Text Notes 9000 6300 0    31   ~ 0
-SLAVES MODE : Star topology :\nCARD1.SLAVE1------CARD2.DATA_OUTPUT\nCARD1.SLAVE2------CARD3.DATA_OUTPUT\nCHAIN MODE : Chain topology\nCARD1.CHAIN INPUT------CARD2.DATA_OUTPUT\nCARD2.CHAIN INPUT------CARD3.DATA_OUTPUT\n
 Text Notes 7500 5250 0    55   ~ 11
 SLAVE1
 Text Notes 7400 5150 0    55   ~ 11
@@ -1696,19 +1633,64 @@ Wire Wire Line
 Wire Wire Line
 	4500 800  4500 950 
 Wire Wire Line
-	2550 800  2550 950 
+	1850 700  1850 800 
 Wire Wire Line
-	2450 800  2450 950 
+	1950 700  1950 800 
 Wire Wire Line
-	2350 800  2350 950 
+	2050 700  2050 800 
 Wire Wire Line
-	2250 800  2250 950 
+	2150 700  2150 800 
 Wire Wire Line
-	2150 800  2150 950 
+	2250 700  2250 800 
 Wire Wire Line
-	2050 800  2050 950 
+	2350 700  2350 800 
 Wire Wire Line
-	1950 800  1950 950 
+	2450 700  2450 800 
 Wire Wire Line
-	1850 800  1850 950 
+	2550 700  2550 800 
+$Comp
+L 233-508:233-508 J1
+U 1 1 5FF70C98
+P 2250 1000
+F 0 "J1" V 2056 1344 50  0000 L CNB
+F 1 "INPUT 0-7" V 2147 1344 50  0000 L CNB
+F 2 "_Extra_footprints:233-508" H 2250 1000 50  0001 L BNN
+F 3 "" H 2250 1000 50  0001 L BNN
+F 4 "Wago Corporation" H 2250 1000 50  0001 L BNN "MF"
+F 5 "0233-0508" H 2250 1000 50  0001 L BNN "MPN"
+F 6 "79K2053" H 2250 1000 50  0001 L BNN "OC_NEWARK"
+F 7 "1777101" H 2250 1000 50  0001 L BNN "OC_FARNELL"
+	1    2250 1000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1450 4750 1400 4750
+Wire Wire Line
+	1400 4650 1400 4750
+Connection ~ 1400 4750
+Wire Wire Line
+	1800 4550 1600 4550
+Wire Wire Line
+	1600 4550 1600 3550
+Connection ~ 1600 3550
+Wire Wire Line
+	1600 3550 3100 3550
+Wire Wire Line
+	1600 4950 1600 5650
+Wire Wire Line
+	1600 5650 1850 5650
+Wire Wire Line
+	1800 6250 4850 6250
+Wire Wire Line
+	1800 4550 1800 4950
+Wire Wire Line
+	1400 4750 1400 4950
+Wire Wire Line
+	1400 4950 1600 4950
+Wire Wire Line
+	1600 4950 1800 4950
+Connection ~ 1600 4950
+Connection ~ 1800 4950
+Wire Wire Line
+	1800 4950 1800 6250
 $EndSCHEMATC
