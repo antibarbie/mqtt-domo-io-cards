@@ -1,0 +1,8 @@
+Plot file "/home/anti/Documents/kicad/mqtt-domo-io-cards/MqttElecTinfo/gerber-mqtt-elec-tinfo/MqttElecTinfo-F_Cu.gbr" created.
+Plot file "/home/anti/Documents/kicad/mqtt-domo-io-cards/MqttElecTinfo/gerber-mqtt-elec-tinfo/MqttElecTinfo-B_Cu.gbr" created.
+Plot file "/home/anti/Documents/kicad/mqtt-domo-io-cards/MqttElecTinfo/gerber-mqtt-elec-tinfo/MqttElecTinfo-F_SilkS.gbr" created.
+Plot file "/home/anti/Documents/kicad/mqtt-domo-io-cards/MqttElecTinfo/gerber-mqtt-elec-tinfo/MqttElecTinfo-B_SilkS.gbr" created.
+Plot file "/home/anti/Documents/kicad/mqtt-domo-io-cards/MqttElecTinfo/gerber-mqtt-elec-tinfo/MqttElecTinfo-F_Mask.gbr" created.
+Plot file "/home/anti/Documents/kicad/mqtt-domo-io-cards/MqttElecTinfo/gerber-mqtt-elec-tinfo/MqttElecTinfo-B_Mask.gbr" created.
+Plot file "/home/anti/Documents/kicad/mqtt-domo-io-cards/MqttElecTinfo/gerber-mqtt-elec-tinfo/MqttElecTinfo-Edge_Cuts.gbr" created.
+Créer le fichier Gerber "job"  "/home/anti/Documents/kicad/mqtt-domo-io-cards/MqttElecTinfo/gerber-mqtt-elec-tinfo/MqttElecTinfo-job.gbrjob"
